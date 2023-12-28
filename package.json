@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.0.0",
+    "@types/config": "^3.3.3",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/express": "^4.17.21",
+    "apollo-server-express": "^3.13.0",
+    "class-validator": "^0.14.0",
+    "concurrently": "^8.2.2",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1",
+    "graphql-type-json": "^0.3.2",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "^2.0.0-beta.2"
+  }
+}
