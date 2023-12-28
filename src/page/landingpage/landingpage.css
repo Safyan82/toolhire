@@ -1,0 +1,141 @@
+.bg-head{
+    background-image: url('https://preview.colorlib.com/theme/equipo/images/bg_2.jpg.webp');
+    background-position: 0 -77.8906px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.bg-head-service{
+    background-image: url('https://preview.colorlib.com/theme/equipo/images/bg_1.jpg.webp');
+    background-position: 0 -77.8906px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    margin-bottom: 32px;
+    background-attachment: fixed;
+}
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.text-container b{
+    font-size: 32px;
+}
+
+.text-container .text{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.btn{
+    
+    padding: 20px 50px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-color: #FFA931;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.card{
+    background-color: #042e4f;
+    padding: 20px 30px;
+    width: 160px;
+}
+
+.btn:hover{
+    /* border-radius: 5px; */
+    padding: 20px 49px;
+
+}
+
+.info{
+    padding: 20px 20px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.info img{
+    width: 500px;
+}
+
+.info-detail{
+    padding: 20px;
+}
+
+.service{
+    text-align: center;
+    padding: 32px 20px;
+    margin-bottom: 50px;
+}
+
+.items{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.itemImg{
+    width: 100% !important;
+    overflow: hidden;
+    height: 160px;
+}
+
+.item-text{
+    padding: 0 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hire-btn{
+    border: 2px solid #0089cf;
+    padding: 14px 30px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: auto;
+    cursor: pointer;
+}
+
+.hire-btn:hover{
+    padding: 14px 29px;
+    border-radius: 5px;
+}
